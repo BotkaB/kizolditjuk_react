@@ -1,4 +1,4 @@
-import { createContext,  useState, useEffect } from "react";
+import { createContext,  useState, useEffect, useContext } from "react";
 import axios from "../api/axios";
 
 export const AdatContext = createContext();
@@ -28,10 +28,14 @@ export const AdatProvider = ({ children }) => {
 
     return (
         <AdatContext.Provider
-            value={{ bejegyzesLista, tevekenysegLista, postAdat }}>
+            value={{ bejegyzesLista, setBejegyzesLista, tevekenysegLista, postAdat }}>
             {children}
         </AdatContext.Provider>
     );
-}
+
+};
+
+
+
 
 

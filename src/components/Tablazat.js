@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import Sor from "./Sor";
-import  { AdatContext } from "../context/AdatContext";
+import  {AdatContext} from "../context/AdatContext";
 
 export default function Tablazat(){
     

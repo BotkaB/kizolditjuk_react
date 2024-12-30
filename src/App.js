@@ -1,6 +1,7 @@
 
 import './App.css';
 import Tablazat from './components/Tablazat';
+import Urlap from './components/Urlap';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
        <h1>Kizöldítjük a Földet!</h1>
       </header>
       <article>
+      <div id="urlap">
+          <Urlap/>
+        </div>
         <div id="tablazat">
           <Tablazat/>
         </div>
