@@ -13,7 +13,6 @@ export default function Tablazat(){
         <tr>
         <th>tevekenyseg</th>
         <th>osztaly</th>
-        <th>pontszam</th>
         <th>allapot</th>
         </tr>
         </thead>
